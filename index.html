@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheBag | Kenya's #1 YouTube DJ Series</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <div class="page-loader" id="pageLoader">
+        <div class="loader-logo">
+            <span class="logo-bag">TheBag</span>
+        </div>
+        <div class="loader-bars">
+            <div class="loader-bar"></div>
+            <div class="loader-bar"></div>
+            <div class="loader-bar"></div>
+            <div class="loader-bar"></div>
+            <div class="loader-bar"></div>
+        </div>
+    </div>
+
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <nav class="navbar" id="navbar">
+        <div class="container nav-content">
+            <a href="#" class="logo">
+                <span class="logo-bag">TheBag</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#djs">DJs</a></li>
+                <li><a href="#playlists">Playlists</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-right">
+                <a href="https://youtube.com" target="_blank" class="youtube-btn-nav">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <button class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-bg-particles">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+        
+        <div class="hero-graphics">
+            <div class="graphic-circle graphic-1"></div>
+            <div class="graphic-circle graphic-2"></div>
+            <div class="graphic-circle graphic-3"></div>
+            
+            <div class="vinyl-record vinyl-1">
+                <div class="vinyl-center"></div>
+                <div class="vinyl-groove"></div>
+                <div class="vinyl-groove"></div>
+                <div class="vinyl-groove"></div>
+            </div>
+            <div class="vinyl-record vinyl-2">
+                <div class="vinyl-center"></div>
+                <div class="vinyl-groove"></div>
+                <div class="vinyl-groove"></div>
+                <div class="vinyl-groove"></div>
+            </div>
+            
+            <div class="sound-wave wave-1">
+                <span></span><span></span><span></span><span></span><span></span>
+                <span></span><span></span><span></span><span></span><span></span>
+            </div>
+            <div class="sound-wave wave-2">
+                <span></span><span></span><span></span><span></span><span></span>
+                <span></span><span></span><span></span><span></span><span></span>
+            </div>
+            
+            <div class="geometric-shape shape-1">
+                <svg viewBox="0 0 100 100" fill="none">
+                    <polygon points="50,5 95,95 5,95" stroke="currentColor" stroke-width="2"/>
+                </svg>
+            </div>
+            <div class="geometric-shape shape-2">
+                <svg viewBox="0 0 100 100" fill="none">
+                    <rect x="10" y="10" width="80" height="80" stroke="currentColor" stroke-width="2" transform="rotate(45 50 50)"/>
+                </svg>
+            </div>
+            <div class="geometric-shape shape-3">
+                <svg viewBox="0 0 100 100" fill="none">
+                    <circle cx="50" cy="50" r="40" stroke="currentColor" stroke-width="2"/>
+                    <circle cx="50" cy="50" r="20" stroke="currentColor" stroke-width="2"/>
+                </svg>
+            </div>
+            
+            <div class="floating-icon icon-1"><i class="fas fa-headphones"></i></div>
+            <div class="floating-icon icon-2"><i class="fas fa-music"></i></div>
+            <div class="floating-icon icon-3"><i class="fas fa-volume-up"></i></div>
+            <div class="floating-icon icon-4"><i class="fas fa-drum"></i></div>
+        </div>
+        
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <p class="hero-tagline animate-on-scroll">Kenya's Premier YouTube DJ Series</p>
+            <h1 class="hero-title animate-on-scroll delay-1">Welcome To <span class="highlight">TheBag</span></h1>
+            <p class="hero-subtitle animate-on-scroll delay-2">Where Kenya's hottest DJs drop the sickest mixes. From gengetone to amapiano, afrobeats to dancehall - we've got the whole vibe.</p>
+            <div class="hero-buttons animate-on-scroll delay-3">
+                <a href="#playlists" class="btn btn-primary">
+                    <i class="fas fa-play"></i> Listen Now
+                </a>
+                <a href="#djs" class="btn btn-secondary">
+                    <i class="fas fa-users"></i> Meet The DJs
+                </a>
+            </div>
+            <div class="hero-stats animate-on-scroll delay-4">
+                <div class="stat">
+                    <span class="stat-number" data-target="500">0</span>K+
+                    <span class="stat-label">Subscribers</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-target="50">0</span>+
+                    <span class="stat-label">DJs</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-target="1000">0</span>+
+                    <span class="stat-label">Playlists</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator animate-on-scroll delay-5">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>Scroll Down</span>
+        </div>
+    </section>
+
+    <section class="featured-playlists" id="playlists">
+        <div class="section-graphics">
+            <div class="section-circle circle-1"></div>
+            <div class="section-circle circle-2"></div>
+            <div class="floating-note note-1"><i class="fas fa-music"></i></div>
+            <div class="floating-note note-2"><i class="fas fa-music"></i></div>
+            <div class="floating-note note-3"><i class="fas fa-music"></i></div>
+            <div class="pulse-dot dot-1"></div>
+            <div class="pulse-dot dot-2"></div>
+        </div>
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-tag">What's Hot</span>
+                <h2 class="section-title">Featured Playlists</h2>
+                <p class="section-subtitle">Fresh mixes from the hottest DJs in Kenya right now</p>
+            </div>
+            <div class="playlist-grid">
+                <div class="playlist-card animate-on-scroll delay-1">
+                    <div class="playlist-image" style="background: linear-gradient(135deg, #cc0000, #000);">
+                        <i class="fas fa-fire"></i>
+                        <span class="playlist-badge">Trending</span>
+                    </div>
+                    <div class="playlist-info">
+                        <h3>Gengetone Madness Vol. 23</h3>
+                        <p class="playlist-dj">DJ Kanyonga</p>
+                        <div class="playlist-meta">
+                            <span><i class="fas fa-clock"></i> 1:32:45</span>
+                            <span><i class="fas fa-play"></i> 45.2K plays</span>
+                        </div>
+                        <button class="play-btn" onclick="playPlaylist('gengetone-madness-23')">
+                            <i class="fas fa-play"></i> Play Mix
+                        </button>
+                    </div>
+                </div>
+                <div class="playlist-card animate-on-scroll delay-2">
+                    <div class="playlist-image" style="background: linear-gradient(135deg, #000, #333);">
+                        <i class="fas fa-music"></i>
+                        <span class="playlist-badge">New</span>
+                    </div>
+                    <div class="playlist-info">
+                        <h3>Amapiano Takeover Vol. 8</h3>
+                        <p class="playlist-dj">DJ Mura</p>
+                        <div class="playlist-meta">
+                            <span><i class="fas fa-clock"></i> 1:15:20</span>
+                            <span><i class="fas fa-play"></i> 38.7K plays</span>
+                        </div>
+                        <button class="play-btn" onclick="playPlaylist('amapiano-takeover-8')">
+                            <i class="fas fa-play"></i> Play Mix
+                        </button>
+                    </div>
+                </div>
+                <div class="playlist-card animate-on-scroll delay-3">
+                    <div class="playlist-image" style="background: linear-gradient(135deg, #cc0000, #660000);">
+                        <i class="fas fa-headphones"></i>
+                        <span class="playlist-badge">Hot</span>
+                    </div>
+                    <div class="playlist-info">
+                        <h3>Afrobeats & Dancehall Fusion</h3>
+                        <p class="playlist-dj">DJ Pierra</p>
+                        <div class="playlist-meta">
+                            <span><i class="fas fa-clock"></i> 1:45:10</span>
+                            <span><i class="fas fa-play"></i> 52.1K plays</span>
+                        </div>
+                        <button class="play-btn" onclick="playPlaylist('afrobeats-dancehall-fusion')">
+                            <i class="fas fa-play"></i> Play Mix
+                        </button>
+                    </div>
+                </div>
+                <div class="playlist-card animate-on-scroll delay-4">
+                    <div class="playlist-image" style="background: linear-gradient(135deg, #1a1a1a, #cc0000);">
+                        <i class="fas fa-compact-disc"></i>
+                    </div>
+                    <div class="playlist-info">
+                        <h3>Kenyan Drill Sessions</h3>
+                        <p class="playlist-dj">DJ Viper</p>
+                        <div class="playlist-meta">
+                            <span><i class="fas fa-clock"></i> 58:30</span>
+                            <span><i class="fas fa-play"></i> 28.4K plays</span>
+                        </div>
+                        <button class="play-btn" onclick="playPlaylist('kenyan-drill-sessions')">
+                            <i class="fas fa-play"></i> Play Mix
+                        </button>
+                    </div>
+                </div>
+                <div class="playlist-card animate-on-scroll delay-5">
+                    <div class="playlist-image" style="background: linear-gradient(135deg, #333, #cc0000);">
+                        <i class="fas fa-guitar"></i>
+                    </div>
+                    <div class="playlist-info">
+                        <h3>Benga Blast Classics</h3>
+                        <p class="playlist-dj">DJ Otis</p>
+                        <div class="playlist-meta">
+                            <span><i class="fas fa-clock"></i> 1:22:15</span>
+                            <span><i class="fas fa-play"></i> 19.8K plays</span>
+                        </div>
+                        <button class="play-btn" onclick="playPlaylist('benga-blast-classics')">
+                            <i class="fas fa-play"></i> Play Mix
+                        </button>
+                    </div>
+                </div>
+                <div class="playlist-card animate-on-scroll delay-6">
+                    <div class="playlist-image" style="background: linear-gradient(135deg, #000, #cc0000);">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <div class="playlist-info">
+                        <h3>Club Bangers 2026</h3>
+                        <p class="playlist-dj">DJ Njoo</p>
+                        <div class="playlist-meta">
+                            <span><i class="fas fa-clock"></i> 1:10:45</span>
+                            <span><i class="fas fa-play"></i> 34.5K plays</span>
+                        </div>
+                        <button class="play-btn" onclick="playPlaylist('club-bangers-2026')">
+                            <i class="fas fa-play"></i> Play Mix
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="section-cta animate-on-scroll">
+                <a href="#" class="btn btn-outline">
+                    View All Playlists <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="djs-section" id="djs">
+        <div class="section-graphics">
+            <div class="turntable-graphic">
+                <div class="turntable-base">
+                    <div class="turntable-platter"></div>
+                    <div class="turntable-arm"></div>
+                </div>
+            </div>
+            <div class="dj-icon-graphic"><i class="fas fa-headphones"></i></div>
+            <div class="dj-icon-graphic"><i class="fas fa-record-alcohol"></i></div>
+            <div class="spinning-disc disc-1"></div>
+            <div class="spinning-disc disc-2"></div>
+        </div>
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-tag">The Crew</span>
+                <h2 class="section-title">Meet Our DJs</h2>
+                <p class="section-subtitle">The talented selectors behind every banger mix</p>
+            </div>
+            <div class="dj-grid">
+                <div class="dj-card animate-on-scroll delay-1">
+                    <div class="dj-avatar" style="background: linear-gradient(135deg, #cc0000, #000);">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="dj-info">
+                        <h3>DJ Kanyonga</h3>
+                        <p class="dj-specialty">Gengetone | Kapuka</p>
+                        <p class="dj-bio">Nairobi's king of gengetone. Known for his high-energy sets that get every crowd moving.</p>
+                        <div class="dj-stats">
+                            <span><i class="fas fa-headphones"></i> 45 Mixes</span>
+                            <span><i class="fas fa-play"></i> 250K Plays</span>
+                        </div>
+                        <div class="dj-socials">
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-tiktok"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="dj-card animate-on-scroll delay-2">
+                    <div class="dj-avatar" style="background: linear-gradient(135deg, #000, #333);">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="dj-info">
+                        <h3>DJ Mura</h3>
+                        <p class="dj-specialty">Amapiano | Afro House</p>
+                        <p class="dj-bio">The amapiano queen bringing South African vibes with a Kenyan twist to every mix.</p>
+                        <div class="dj-stats">
+                            <span><i class="fas fa-headphones"></i> 38 Mixes</span>
+                            <span><i class="fas fa-play"></i> 198K Plays</span>
+                        </div>
+                        <div class="dj-socials">
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-tiktok"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="dj-card animate-on-scroll delay-3">
+                    <div class="dj-avatar" style="background: linear-gradient(135deg, #cc0000, #660000);">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="dj-info">
+                        <h3>DJ Pierra</h3>
+                        <p class="dj-specialty">Afrobeats | Dancehall</p>
+                        <p class="dj-bio">The ultimate vibe curator blending afrobeats and dancehall into seamless party starters.</p>
+                        <div class="dj-stats">
+                            <span><i class="fas fa-headphones"></i> 52 Mixes</span>
+                            <span><i class="fas fa-play"></i> 310K Plays</span>
+                        </div>
+                        <div class="dj-socials">
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-tiktok"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="dj-card animate-on-scroll delay-4">
+                    <div class="dj-avatar" style="background: linear-gradient(135deg, #1a1a1a, #cc0000);">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="dj-info">
+                        <h3>DJ Viper</h3>
+                        <p class="dj-specialty">Drill | Hip Hop</p>
+                        <p class="dj-bio">The drill specialist bringing the hardest bars and beats from Kenya's underground scene.</p>
+                        <div class="dj-stats">
+                            <span><i class="fas fa-headphones"></i> 29 Mixes</span>
+                            <span><i class="fas fa-play"></i> 145K Plays</span>
+                        </div>
+                        <div class="dj-socials">
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-tiktok"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="genres-section">
+        <div class="section-graphics">
+            <div class="genre-wave wave-1"></div>
+            <div class="genre-wave wave-2"></div>
+            <div class="genre-wave wave-3"></div>
+            <div class="note-trail">
+                <i class="fas fa-music"></i>
+                <i class="fas fa-music"></i>
+                <i class="fas fa-music"></i>
+                <i class="fas fa-music"></i>
+            </div>
+        </div>
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-tag">The Vibes</span>
+                <h2 class="section-title">Explore Genres</h2>
+                <p class="section-subtitle">Find your perfect mix by genre</p>
+            </div>
+            <div class="genre-grid">
+                <a href="#" class="genre-card animate-on-scroll delay-1" style="background: linear-gradient(135deg, #cc0000, #000);">
+                    <i class="fas fa-fire"></i>
+                    <h3>Gengetone</h3>
+                    <span class="genre-count">120+ Mixes</span>
+                </a>
+                <a href="#" class="genre-card animate-on-scroll delay-2" style="background: linear-gradient(135deg, #1a1a1a, #333);">
+                    <i class="fas fa-drum"></i>
+                    <h3>Amapiano</h3>
+                    <span class="genre-count">95+ Mixes</span>
+                </a>
+                <a href="#" class="genre-card animate-on-scroll delay-3" style="background: linear-gradient(135deg, #660000, #cc0000);">
+                    <i class="fas fa-music"></i>
+                    <h3>Afrobeats</h3>
+                    <span class="genre-count">150+ Mixes</span>
+                </a>
+                <a href="#" class="genre-card animate-on-scroll delay-4" style="background: linear-gradient(135deg, #000, #cc0000);">
+                    <i class="fas fa-guitar"></i>
+                    <h3>Dancehall</h3>
+                    <span class="genre-count">80+ Mixes</span>
+                </a>
+                <a href="#" class="genre-card animate-on-scroll delay-5" style="background: linear-gradient(135deg, #333, #1a1a1a);">
+                    <i class="fas fa-microphone"></i>
+                    <h3>Kenyan Drill</h3>
+                    <span class="genre-count">65+ Mixes</span>
+                </a>
+                <a href="#" class="genre-card animate-on-scroll delay-6" style="background: linear-gradient(135deg, #cc0000, #333);">
+                    <i class="fas fa-compact-disc"></i>
+                    <h3>Kapuka</h3>
+                    <span class="genre-count">70+ Mixes</span>
+                </a>
+                <a href="#" class="genre-card animate-on-scroll delay-7" style="background: linear-gradient(135deg, #000, #660000);">
+                    <i class="fas fa-wave-square"></i>
+                    <h3>Bongo Flava</h3>
+                    <span class="genre-count">45+ Mixes</span>
+                </a>
+                <a href="#" class="genre-card animate-on-scroll delay-8" style="background: linear-gradient(135deg, #1a1a1a, #cc0000);">
+                    <i class="fas fa-record-vinyl"></i>
+                    <h3>Benga</h3>
+                    <span class="genre-count">55+ Mixes</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section" id="about">
+        <div class="section-graphics">
+            <div class="globe-graphic">
+                <div class="globe-lines"></div>
+            </div>
+            <div class="kenya-map-graphic">
+                <svg viewBox="0 0 100 100" fill="none">
+                    <path d="M20,50 Q30,30 50,40 Q70,50 80,30 Q90,20 85,50 Q80,80 50,90 Q20,80 20,50" stroke="currentColor" stroke-width="2" fill="none"/>
+                </svg>
+            </div>
+            <div class="timeline-dot t1"></div>
+            <div class="timeline-dot t2"></div>
+            <div class="timeline-dot t3"></div>
+        </div>
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content animate-on-scroll">
+                    <span class="section-tag">Our Story</span>
+                    <h2 class="section-title">About TheBag</h2>
+                    <p class="about-text">
+                        TheBag is Kenya's premier YouTube DJ series, born from the vibrant streets of Nairobi. We started with a simple mission: to showcase the incredible talent of Kenyan DJs and bring their mixes to the world.
+                    </p>
+                    <p class="about-text">
+                        From gengetone to amapiano, afrobeats to benga, our DJs curate the freshest mixes that capture the energy, culture, and sound of modern Kenya. Every playlist is a journey through the heartbeat of East Africa's music scene.
+                    </p>
+                    <div class="about-features">
+                        <div class="feature animate-on-scroll delay-1">
+                            <i class="fas fa-video"></i>
+                            <div>
+                                <h4>Weekly Uploads</h4>
+                                <p>Fresh mixes dropped every week</p>
+                            </div>
+                        </div>
+                        <div class="feature animate-on-scroll delay-2">
+                            <i class="fas fa-globe-africa"></i>
+                            <div>
+                                <h4>Pan-African Sound</h4>
+                                <p>Kenyan roots, African vibes</p>
+                            </div>
+                        </div>
+                        <div class="feature animate-on-scroll delay-3">
+                            <i class="fas fa-trophy"></i>
+                            <div>
+                                <h4>Top DJs</h4>
+                                <p>Kenya's finest selectors</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image animate-on-scroll delay-2">
+                    <div class="about-visual">
+                        <i class="fas fa-headphones-alt"></i>
+                        <div class="visual-text">
+                            <span>Since 2020</span>
+                            <h3>Keeping Kenya Dancing</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="subscribe-section">
+        <div class="subscribe-particles">
+            <div class="sub-particle p1"></div>
+            <div class="sub-particle p2"></div>
+            <div class="sub-particle p3"></div>
+            <div class="sub-particle p4"></div>
+            <div class="sub-particle p5"></div>
+        </div>
+        <div class="container">
+            <div class="subscribe-box animate-on-scroll">
+                <i class="fab fa-youtube subscribe-icon"></i>
+                <h2>Subscribe to TheBag</h2>
+                <p>Join 500K+ subscribers and never miss a mix. Hit the bell for notifications!</p>
+                <a href="https://youtube.com" target="_blank" class="btn btn-primary btn-large">
+                    <i class="fab fa-youtube"></i> Subscribe on YouTube
+                </a>
+                <div class="subscribe-stats">
+                    <span><i class="fas fa-users"></i> 500K+ Subscribers</span>
+                    <span><i class="fas fa-eye"></i> 10M+ Total Views</span>
+                    <span><i class="fas fa-upload"></i> 1000+ Videos</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-tag">Get In Touch</span>
+                <h2 class="section-title">Contact Us</h2>
+                <p class="section-subtitle">Want to collaborate, book a DJ, or get featured? Reach out!</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item animate-on-scroll delay-1">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@thebag.co.ke</p>
+                        </div>
+                    </div>
+                    <div class="contact-item animate-on-scroll delay-2">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+254 700 000 000</p>
+                        </div>
+                    </div>
+                    <div class="contact-item animate-on-scroll delay-3">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Nairobi, Kenya</p>
+                        </div>
+                    </div>
+                    <div class="contact-socials animate-on-scroll delay-4">
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form animate-on-scroll delay-2" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <select required>
+                            <option value="" disabled selected>Select Subject</option>
+                            <option value="booking">DJ Booking</option>
+                            <option value="collaboration">Collaboration</option>
+                            <option value="feature">Get Featured</option>
+                            <option value="business">Business Inquiry</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand animate-on-scroll">
+                    <a href="#" class="logo">
+                        <span class="logo-bag">TheBag</span>
+                    </a>
+                    <p>Kenya's premier YouTube DJ series. Bringing you the freshest mixes from the hottest DJs in the country.</p>
+                    <div class="footer-socials">
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links animate-on-scroll delay-1">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#djs">DJs</a></li>
+                        <li><a href="#playlists">Playlists</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links animate-on-scroll delay-2">
+                    <h4>Genres</h4>
+                    <ul>
+                        <li><a href="#">Gengetone</a></li>
+                        <li><a href="#">Amapiano</a></li>
+                        <li><a href="#">Afrobeats</a></li>
+                        <li><a href="#">Dancehall</a></li>
+                        <li><a href="#">Kenyan Drill</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter animate-on-scroll delay-3">
+                    <h4>Stay Updated</h4>
+                    <p>Get notified about new mixes and events</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Enter your email">
+                        <button type="submit"><i class="fas fa-arrow-right"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 TheBag. All rights reserved. Made with <i class="fas fa-heart"></i> in Nairobi, Kenya</p>
+            </div>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <div class="now-playing" id="nowPlaying">
+        <div class="now-playing-content">
+            <div class="track-info">
+                <i class="fas fa-music"></i>
+                <div>
+                    <span class="track-name" id="trackName">Select a playlist to play</span>
+                    <span class="track-dj" id="trackDj">TheBag</span>
+                </div>
+            </div>
+            <div class="player-controls">
+                <button class="control-btn" id="prevBtn"><i class="fas fa-backward"></i></button>
+                <button class="control-btn play-pause" id="playPauseBtn"><i class="fas fa-play"></i></button>
+                <button class="control-btn" id="nextBtn"><i class="fas fa-forward"></i></button>
+            </div>
+            <div class="progress-bar">
+                <div class="progress" id="progress"></div>
+            </div>
+            <button class="close-player" id="closePlayer"><i class="fas fa-times"></i></button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
